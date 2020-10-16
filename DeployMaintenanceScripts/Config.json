@@ -1,0 +1,21 @@
+{
+    "ScriptDirectory":"\\\\put\\your\\directory\\name\\here\\",
+    "servers":[
+        {
+            "name":"sqlserver01"
+            ,"type":"zone1_servers"
+        },
+        {
+            "name":"sqlserver02"
+            ,"type":"zone1_servers"
+        },
+        {
+            "name":"sqlserver03"
+            ,"type":"zone1_servers"
+        },
+        {
+            "name":"protectedsqlserver01"
+            ,"type":"zone2_servers"
+        }
+    ]
+}
