@@ -7,11 +7,11 @@
         },
         {
             "name":"sqlserver02"
-            ,"type":"zone1_servers"
+            ,"type":"zone3_servers"
         },
         {
             "name":"sqlserver03"
-            ,"type":"zone1_servers"
+            ,"type":"zone4_servers"
         },
         {
             "name":"protectedsqlserver01"
