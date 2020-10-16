@@ -22,7 +22,7 @@ $Config = Get-Content .\Config.json | ConvertFrom-Json
 
 if ($DeploySecure -eq $false) {
     $Servers = $Config.servers | Where-Object {$_.type -ne "zone2_servers"}
-    Write-Host "Deploying to zone 1 environments."
+    Write-Host "Deploying to non-zone 2 environments."
 }
 else {
     $Servers = $Config.servers | Where-Object {$_.type -eq "zone2_servers"}
